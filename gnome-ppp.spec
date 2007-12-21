@@ -19,6 +19,7 @@ BuildRequires: libgnomeui2-devel
 BuildRequires: libglade2.0-devel
 BuildRequires:	perl-XML-Parser
 BuildRequires:	desktop-file-utils
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Gnome 2 front-end to wvDial, a modem/ISDN dial-up software.
