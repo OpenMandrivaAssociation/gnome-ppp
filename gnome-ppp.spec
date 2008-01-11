@@ -41,18 +41,6 @@ rm -rf %{buildroot}/%{_datadir}/doc/%{name}
 %find_lang %{name} --with-gnome
 
 # menu
-mkdir -p %{buildroot}/%{_menudir}
-cat > %{buildroot}/%{_menudir}/%{name} <<EOF
-?package(%{name}): \
-command="%{_bindir}/gnome-ppp" \
-title="Gnome PPP" \
-longtitle="GNOME 2 frontend for wvdial" \
-needs="x11" \
-icon="%{name}.png" \
-section="%section" \
-startup_notify="yes" \
-xdg="true"
-EOF
 
 desktop-file-install --vendor="" \
 	--remove-category="Application" \
@@ -89,7 +77,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/pixmaps/apps/%name.png
 %{_datadir}/icons/hicolor/48x48/apps/*.png
 %{_datadir}/%name/gnome_ppp*.png
-%{_menudir}/%{name}
 %_liconsdir/%name.png
 %_miconsdir/%name.png
 %_iconsdir/%name.png
