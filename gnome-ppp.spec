@@ -1,6 +1,6 @@
 %define name gnome-ppp
 %define version 0.3.23
-%define release %mkrel 3
+%define release %mkrel 4
 %define section Internet/Remote Access
 
 Summary: Gnome 2 front-end to wvdial
