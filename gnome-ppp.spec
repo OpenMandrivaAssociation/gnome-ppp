@@ -11,7 +11,7 @@ Source0: http://www.gnome-ppp.org/download/0.3/%{name}-%{version}.tar.bz2
 Source1: gnome-ppp.png
 Source2: gnome-ppp-16.png
 Source3: gnome-ppp-32.png
-URL: http://www.gnome-ppp.org/
+URL: https://www.gnome-ppp.org/
 License: GPL
 Group: System/Configuration/Networking
 Requires: wvdial >= 1.54
