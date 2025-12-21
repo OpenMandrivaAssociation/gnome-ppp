@@ -15,6 +15,11 @@ URL: https://www.gnome-ppp.org/
 License: GPL
 Group: System/Configuration/Networking
 Requires: wvdial >= 1.54
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(libgnomeui-2.0)
 BuildRequires: pkgconfig(libglade-2.0)
 BuildRequires:	perl-XML-Parser
